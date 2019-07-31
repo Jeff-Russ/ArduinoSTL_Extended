@@ -1,11 +1,7 @@
-#
 # Never ignore these
-#
 !.gitignore
 
-#
 # Generated files
-#
 *.a
 *.i
 *.o
@@ -20,18 +16,47 @@ libuClibc++*.so
 libuClibc++*.so.0
 include/system_configuration.h
 
-#
 # Debugging files
-#
 .gdb_history
 .gdbinit
 core
 
-#
 # Backups / patches
-#
 *~
 *.orig
 *.rej
 /*.patch
 /*.diff
+
+# Testing
+ignored/*
+_ignored/*
+z_ignored/*
+ignore/*
+_ignore/*
+z_ignore/*
+
+
+# MacOS
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+# Icon must end with two \r
+Icon
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
